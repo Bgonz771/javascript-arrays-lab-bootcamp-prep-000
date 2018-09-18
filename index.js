@@ -42,8 +42,8 @@ function prependKitten(array, element){
    return nKit;
  } 
   
-//function addElementToBeginningOfArray(array, element){
-   //array = [element,... array];
-   //return array;
-   
-// }
+var kittens =["Milo","Otis","Garfield"];
+function(array, element){
+   var nKit = [...kittens,"Arnold"];
+   return nKit;
+ } 
