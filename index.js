@@ -38,7 +38,7 @@ function appendKitten(array1,array2){
   
 var kittens =["Milo","Otis","Garfield"];
 function prependKitten(array, element){
-   var nKit = ["Broom",...kittens];
+   var nKit = ["Arnold",...kittens];
    return nKit;
  } 
   
