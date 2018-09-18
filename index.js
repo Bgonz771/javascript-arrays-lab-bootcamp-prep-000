@@ -37,10 +37,13 @@ function appendKitten(array1,array2){
  } 
   
 var kittens =["Milo","Otis","Garfield"];
-var nKitten =["Broom"];
-function prependKitten(array1,array2){
-   var nKit = (nKitten.concat(Kittens));
+function prependKitten(array, element){
+   var nKit = ["Broom",...kittens];
    return nKit;
  } 
   
-
+//function addElementToBeginningOfArray(array, element){
+   //array = [element,... array];
+   //return array;
+   
+// }
