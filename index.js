@@ -49,7 +49,7 @@ function removeLastKitten(){
  } 
 
 var kittens =["Milo","Otis","Garfield"];
-function removeLastKitten(){
-   var nKit = (kittens.slice(0,2));
+function removeFirstKitten(){
+   var nKit = (kittens.slice(1,3));
    return nKit;
  } 
