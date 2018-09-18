@@ -38,7 +38,7 @@ function appendKitten(array1,array2){
   
 var kittens =["Milo","Otis","Garfield"];
 var nKitten =["Broom"];
-function prependKitten(name){
+function prependKitten(array1,array2){
    var nKit = (nKitten.concat(Kittens));
    return nKit;
  } 
