@@ -47,3 +47,9 @@ function removeLastKitten(){
    var nKit = (kittens.slice(0,2));
    return nKit;
  } 
+
+var kittens =["Milo","Otis","Garfield"];
+function removeLastKitten(){
+   var nKit = (kittens.slice(0,2));
+   return nKit;
+ } 
